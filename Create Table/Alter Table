@@ -1,0 +1,1 @@
+alter table dining_table add foreign key(table_id) references branch(branch_id);
