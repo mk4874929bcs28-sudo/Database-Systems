@@ -1,0 +1,3 @@
+CREATE TABLE EMPLOYEE (emp_id number primary key,emp_name varchar2(30),
+salary number(10,2),shift_timing varchar2(20),joining_date date,years_of_exp number,
+mail_id varchar2(40),street varchar2(30),city varchar2(20),pincode number);
