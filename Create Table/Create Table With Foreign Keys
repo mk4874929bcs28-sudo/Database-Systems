@@ -1,0 +1,2 @@
+ CREATE TABLE MANAGER (emp_id number primary key,office_no varchar2(10),
+dept_incharge varchar2(30),foreign key(emp_id) references employee(emp_id));
