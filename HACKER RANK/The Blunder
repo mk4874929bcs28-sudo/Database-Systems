@@ -1,0 +1,13 @@
+SELECT CEIL(
+    AVG(salary) - AVG(
+        TO_NUMBER(
+            NVL(
+                NULLIF(REPLACE(TO_CHAR(salary), '0', ''), ''),
+                '0'
+            )
+        )
+    )
+)
+FROM EMPLOYEES;
+
+exit;
